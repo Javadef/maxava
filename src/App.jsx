@@ -1,6 +1,11 @@
 import TitleBar from "./components/TitleBar/Titlebar"
+import Container from "./components/Container/Container.jsx";
+
 
 const App = () => {
-  return <div><TitleBar/></div>
+  return <>
+    <TitleBar/>
+    <Container/>
+  </>
 }
 export default App
